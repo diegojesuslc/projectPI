@@ -1,0 +1,72 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 oct 2023, 23:35:50
+    Author     : DIEGO
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../Imagenes/imagen1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white; /*Colorear de blanco los componentes de nuestra pagina: letra, bordes, etc..*/
+}
+
+.menu{
+    padding: 20px;
+    text-align: center;
+    border-style: none solid solid solid;
+    border-radius: 0px 0px 50px 50px;
+    
+    background: rgba(183,222,237,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(113,206,239,1) 31%, rgba(33,180,226,1) 67%, rgba(33,180,226,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(183,222,237,1)), color-stop(7%, rgba(183,222,237,1)), color-stop(31%, rgba(113,206,239,1)), color-stop(67%, rgba(33,180,226,1)), color-stop(100%, rgba(33,180,226,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(113,206,239,1) 31%, rgba(33,180,226,1) 67%, rgba(33,180,226,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(113,206,239,1) 31%, rgba(33,180,226,1) 67%, rgba(33,180,226,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(113,206,239,1) 31%, rgba(33,180,226,1) 67%, rgba(33,180,226,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(113,206,239,1) 31%, rgba(33,180,226,1) 67%, rgba(33,180,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#21b4e2', GradientType=1 );
+}
+
+
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+
+.menu ul li{
+    font-size: 25px;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    border-style: solid;
+    margin-right: 30px;
+    border-radius: 30px;
+    background: rgba(0,0,0, 0.4);
+    box-shadow: 0px 0px 10px 4px white;
+    transition: all .5s;
+}
+
+
+.menu ul li:hover{
+    transition: all .5s;
+    box-shadow: 0px 0px 10px 6px white;
+    background: rgba(0,0,0, 0.9);
+    transform: translate(0px, -5px);
+}
